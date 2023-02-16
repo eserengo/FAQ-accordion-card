@@ -1,0 +1,69 @@
+/*
+ Name:  FAQ accordion card.
+ Description: A Frontendmentor.io coding challenge.
+ Author: Federico Borzani
+ Author URL:  https://github.com/eserengo/
+*/
+
+@import url("variables.css");
+
+:root {
+  font-family: "Kumbh Sans";
+  font-size: 12px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 0%;
+  margin: 0%;
+  user-select: none;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+.active {
+  font-weight: var(--Bold);
+  color: var(--VeryDarkDesaturatedBlue-PrimaryText) !important;
+}
+
+.title {
+  font-size: 250%;
+  font-weight: var(--Bold);
+  color: var(--VeryDarkDesaturatedBlue-PrimaryText);
+}
+
+.faq {
+  border-bottom: 1px solid var(--LightGrayishBlue-Dividers);
+}
+
+.question {
+  color: var(--VeryDarkGrayishBlue-NeutralText);
+}
+
+.question:hover {
+  color: var(--SoftRed-PrimaryText) !important;
+}
+
+.fa {
+  color: var(--SoftRed-PrimaryText);
+}
+
+.answer {
+  color: var(--DarkGrayishBlue-NeutralText);
+}
+
+.attribution {
+  font-size: 75%;
+  display: block;
+  text-align: center;
+}
+

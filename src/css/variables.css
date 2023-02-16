@@ -1,0 +1,15 @@
+:root {
+  --Bold: 700;
+
+  --VeryDarkDesaturatedBlue-PrimaryText: hsl(238, 29%, 16%);
+  --SoftRed-PrimaryText: hsl(14, 88%, 65%);
+  --VeryDarkGrayishBlue-NeutralText: hsl(237, 12%, 33%);
+  --DarkGrayishBlue-NeutralText: hsl(240, 6%, 50%);
+
+  --SoftViolet-BackgroundGradient: hsl(273, 75%, 66%);
+  --SoftBlue-BackgroundGradient: hsl(240, 73%, 65%);
+
+  --LightGrayishBlue-Dividers: hsl(240, 5%, 91%);
+
+  --White: hsl(0, 0%, 99%);
+}
